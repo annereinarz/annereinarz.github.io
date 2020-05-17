@@ -1,5 +1,7 @@
+---
 layout: page
-title: Teaching
+title: Anne Reinarz
+---
 
 # Teaching
 
