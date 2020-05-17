@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+</head>
+
+
+<body>
+    <div id='d3'></div>
+    <!-- <button onclick="quad.layout(false)">Button me!</button>
+    <button onclick="state.size++; quad.size(state.size)">Button me 2!</button>
+    <button onclick="quad.accumulate()">Button me 3!</button>
+    <button onclick="quad.estimate(true)">Button me 4!</button> -->
+    <input type="range" min="1" max="34" step="1" value="1" onchange="state.size=this.value; quad.size(state.size)">Add points
+    <input type="range" min="0" max="2" step="0.1" value="0" onchange="state.theta=this.value; quad.theta(state.theta)">Change theta
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+    <script src="https://d3js.org/d3-transition.v1.min.js"></script>
+    <script src="https://d3js.org/d3-drag.v1.min.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+    <script src="../js/quadtree.js"></script>
+    <script>
+    
+    const state = {
+      width:      514,
+      height:     514,
+      size:       0,
+      theta:      0,
+      charge:     0,
+      radius:     4,
+      accumulate: 0,
+      layout:     true,
+      estimate:   false
+    };
+
+    // initialize component
+    const div = d3.select(document.getElementById('d3'))
+    const el = div.append('div').attr('class', 'quad')
+    window.quad = quadtree(el.node(), { width: state.width, height: state.height, theta: state.theta, radius: state.radius });
+
+    console.log('Transistions loadet barneshut')
+
+    var _transitions = [
+      {
+        transitionForward: () => quad.layout(false),
+        transitionBackward: () => quad.layout(true),
+      },
+    ]
+    // for(var step=0; step<34; step++) {
+    //   _transitions.push({
+    //     transitionForward: () => {state.size++; quad.size(state.size)},
+    //     transitionBackward: () => {state.size--; quad.size(state.size)},
+    //   })
+    // }
+    _transitions.push({
+        transitionForward: () => quad.accumulate(),
+        transitionBackward: () => quad.size(0),
+    })
+    _transitions.push({
+        transitionForward: () => quad.estimate(true),
+        transitionBackward: () => quad.estimate(false),
+    })
+</script>
+
+</body>
+</html>
+    
