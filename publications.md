@@ -1,6 +1,5 @@
 ---
-layout: page
-title: "Publications"
+title: "Anne Reinarz"
 ---
 
 # Publications
