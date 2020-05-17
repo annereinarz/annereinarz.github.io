@@ -1,10 +1,7 @@
-# Teaching
+layout: page
+title: "Anne Reinarz"
 
-## Scientific Computing, Summer 2020
-- Barnes-Hut
-- Fast Multipole
-
-## Discontinuous Galerkin Lab Course, Summer 2020
+[Teaching](teaching.md)
 
 
 # Publications
