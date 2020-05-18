@@ -104,6 +104,13 @@
 
 ### Create point cloud
 
+<small>
+
+- Visualisation by Jeffrey Heer
+- <url>https://jheer.github.io/barnes-hut/</url>
+
+</small>
+
 </div>
 
 <div class="fragment fade-in" data-fragment-index="1"><div class="fragment fade-out" data-fragment-index="2">
@@ -121,43 +128,47 @@ For each particle (position $x\in\Omega$):
 </small>
 </div></div>  
 
-<div class="fragment fade-in" data-fragment-index="2"><div class="fragment fade-out" style=  data-fragment-index="3">
+<div class="fragment fade-in" data-fragment-index="2"><div class="fragment fade-out"  data-fragment-index="3">
 
-### Next thingy
 
-- Text
+### Compute centers of mass or charge
+
+<small>
+
+- assign a point $y_0^i$ to each $\Omega^{\rm{far}}_i$ corresponding to the center of mass
+-  for each subdomain compute total mass by summing particles in that subdomain
+- decomposition depending on size of subdomains:
+$$  \text{diam} := \sup_{y\in\Omega^{\rm{far}}_i} \|y-y_0^i\| $$
+
+
+</small>
 
 </div></div>  
 
-  </div>
-  </div>
-</section>
+<div class="fragment fade-in" data-fragment-index="3"><div class="fragment fade-out"  data-fragment-index="4">
 
----
+### Force computation
 
-# Barnes-Hut: Computation of Forces
-
----
-
-# Compute centers of mass or charge
-- assign a point $y_0^i$ to each $\Omega^{\rm{far}}_i$ corresponding to the center of mass
-- for each subdomain compute total mass by summing particles in that subdomain
-
----
-
-# Force computation
-- decomposition depending on size of subdomains:
-$$  \text{diam} := \sup_{y\in\Omega^{\rm{far}}_i} \|y-y_0^i\| $$
+<small>
 
 For each particle (position $x\in\Omega$):
 - start in root node
 - descent into subdomains, until $\theta$-rule satisfied: $$ \frac{diam}{r} \leq \theta,$$ 
    $r$ the distance of pseudo particle from $x$
-- accumulate corresp.\ partial force to current particle
+- accumulate corresp. partial force to current particle
+
+</small>
+
+</div>
+</div>
+  </div>
+  </div>
+</section>
+
 
 ---
 
-# Barnes-Hut: Computation of Forces}
+# Barnes-Hut: Computation of Forces
 
 Implicit separation of short- and longe-range forces:
 - short-range: all leaf nodes that are reached (containing 1 particle)
