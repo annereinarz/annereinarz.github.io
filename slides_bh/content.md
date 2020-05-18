@@ -182,7 +182,7 @@ Implicit separation of short- and longe-range forces:
 - depends on choice of $\theta$
 - the smaller $\theta$, the more accurate the long-range forces
 - the smaller $\theta$, the larger the short-range (i.e., the costs)
-- slow convergence w.r.t.\ $\theta$ (low-order method)
+- slow convergence w.r.t. $\theta$ (low-order method)
 
 ---
 

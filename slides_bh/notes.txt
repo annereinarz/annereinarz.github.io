@@ -102,6 +102,99 @@ of mass.
 We can see that starting from the lowest level the four cells
 making up the level above get accumulated here.
 
-lets watch it again just for fun.
+so now for each layer of the hierarchy of cells we have one particle
+in some cases an accumulated one.
+Now we have to choose which level to interact with for each
+force calculation.
+Essentially we alway interact with a constant number of particles
+at each level which is what gives this article its nlogn complexity
+Lets see why
 
+so here we have pointer which is our current location
+then in dependence of a parameter theta and the distance
+to the box we will decide which level to interact with.
+Right now theta is 0, so we alway interact with a leaf.
+
+The algorithm goes like this we start in the root node and
+then descend until the diameter of the cell divided by the 
+distance from it is less than theta
+We then accumulate the resulting force to our current particle.
+
+So the larger we choose theta the less far into the tree
+we need to descend before the theta rule is satisfied.
+
+Lets see what happens if we increase theta slightly
+now some of the further away particles are treated using a cluster
+See in the cell to the right 6 particles have been summed up 
+into one particle located at their center of mass and
+weighing as much as their sum.
+
+lets increase theta some more
+
+now many more levels up are allowed and we've summed up even more
+particles.
+
+We can also try to move the cursor representing our current location
+around.
+
+The link to the slides allows you to try this as well.
+
+and that was already the full algorithm
+
+if we want to look at it that way our algorithm is now seperating
+    short and long range forces. Everything thats far away gets
+    treated approximately and for short range we do the same
+    as in the short-range potentials part of the lecture.
+So the main difference with barnes hut is that instead of cutting
+the long range interactions entirely we now approximate them.
+
+Obviously by approximating far away forces we make an error.
+same as we did with short range potentials by setting the force
+to zero.
+In this case the size of the error depends on theta
+If theta is small we hardly group together any particles and the error
+is low, but the cost is higher
+and if theta is larger the cost is much lower but our accuracy is lower
+
+Now, we have simply summed up all the particles into one point mass
+this is a very low order approximation of the particles
+and thus the convergence with respect to theta will be slow
+
+In the fast multipole algorithm we will have a look at higher order
+approximations for the clusters of particles.
+
+It is clear that as theta goes to zero we get back to the naive
+algorithm, ie we calculate only with the leaves of the octree.
+But for a reasonable theta we get
+a complexity of nlogn because the number of cells is logn divided
+by theta to the power of 3 in 3D or 2 in 2D.
+
+Thats quite intuitive since the diameter of the cells halves
+with each level of the tree.
+
+So for each of our n particle we have log n divided by theta to the power
+of the dimension interactions to compute giving us an nlogn effort
+
+So lets summarise:
+
+we use a pseudo particles, which you can think of as clusters of 
+particles approximated as a point mass.
+
+we traverse the tree starting at the root and compute
+pseudo particles for each level.
+
+then we compute the forces by looping over all particles and for
+each traversing the tree until the theta rule is satisfied.
+
+Around all this there is a time integration, which requires
+us to recompute or update our data structures in each step.
+
+and finally: barnes hut is suitable for long-range forces,
+it has complexity of nlogn and uses a low order approximation
+for the pseudo particles.
+
+    we can do better both on the complexity and on improving
+    the accuracy of the pseudo particles
+
+    so next lets look at multipole expansions.
 
