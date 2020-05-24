@@ -117,6 +117,7 @@
 
 ### Subdivide domain into quadtree
 
+
 <small>
 
 - distribute long-range region into subdomains: $$ \Omega^{\rm{far}} = \bigcup_i \Omega^{\rm{far}}_i$$
@@ -124,6 +125,8 @@
 For each particle (position $x\in\Omega$):
 - start in root node
 - descent into subdomains and subdivide until every domain contains 0 or 1 particles
+
+<input type="range" name="addpointsButton" id="addpointsButton" min="1" max="78" step="1" value="1">Add points 
 
 </small>
 </div></div>  
@@ -145,7 +148,7 @@ $$  \text{diam} := \sup_{y\in\Omega^{\rm{far}}_i} \|y-y_0^i\| $$
 
 </div></div>  
 
-<div class="fragment fade-in" data-fragment-index="3"><div class="fragment fade-out"  data-fragment-index="4">
+<div class="fragment fade-in" data-fragment-index="3">
 
 ### Force computation
 
@@ -156,6 +159,8 @@ For each particle (position $x\in\Omega$):
 - descent into subdomains, until $\theta$-rule satisfied: $$ \frac{diam}{r} \leq \theta,$$ 
    $r$ the distance of pseudo particle from $x$
 - accumulate corresp. partial force to current particle
+
+<input type="range" id="changeTheta" min="0" max="2" step="0.1" value="0">Change theta
 
 </small>
 

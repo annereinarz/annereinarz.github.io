@@ -6,12 +6,6 @@
 
 <body>
     <div id='d3'></div>
-    <!-- <button onclick="quad.layout(false)">Button me!</button>
-    <button onclick="state.size++; quad.size(state.size)">Button me 2!</button>
-    <button onclick="quad.accumulate()">Button me 3!</button>
-    <button onclick="quad.estimate(true)">Button me 4!</button> -->
-    <input type="range" min="1" max="78" step="1" value="1" onchange="state.size=this.value; quad.size(state.size)">Add points
-    <input type="range" min="0" max="2" step="0.1" value="0" onchange="state.theta=this.value; quad.theta(state.theta)">Change theta
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
     <script src="https://d3js.org/d3-selection.v1.min.js"></script>
@@ -40,24 +34,30 @@
     const el = div.append('div').attr('class', 'quad')
     window.quad = quadtree(el.node(), { width: state.width, height: state.height, theta: state.theta, radius: state.radius });
 
+let slideNode = Array.prototype.slice.call(window.parent.document.querySelectorAll('section')).filter(d => d.className.includes("present"))[0]
+    let button = d3.select(slideNode)
+      .select('#addpointsButton');
+
+    button.on('change', function() {
+      state.size = this.value; quad.size(state.size)
+    })
+    
+    d3.select(slideNode).select('#changeTheta').on('change', function() {
+      state.theta=this.value; quad.theta(state.theta)
+    })
+
     var _transitions = [
       {
         transitionForward: () => quad.layout(false),
         transitionBackward: () => quad.layout(true),
       },
     ]
-    // for(var step=0; step<34; step++) {
-    //   _transitions.push({
-    //     transitionForward: () => {state.size++; quad.size(state.size)},
-    //     transitionBackward: () => {state.size--; quad.size(state.size)},
-    //   })
-    // }
     _transitions.push({
-        transitionForward: () => {  quad.accumulate()},
-        transitionBackward: () =>  state.accumulate = 0,
+        transitionForward: () => {state.accumulate=1;  quad.accumulate()},
+        transitionBackward: () =>  {state.accumulate=0},
     })
     _transitions.push({
-        transitionForward: () => quad.estimate(true),
+        transitionForward: () => {state.accumulate=0; quad.estimate(true)},
         transitionBackward: () => quad.estimate(false),
     })
 </script>
