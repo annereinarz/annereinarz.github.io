@@ -6,4 +6,5 @@ title: Anne Reinarz
 
 ## Scientific Computing, Summer 2020
 - [Barnes-Hut](bh)
+- [Fast Multipole Method](fastmultipole)
 
