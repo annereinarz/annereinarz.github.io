@@ -160,7 +160,6 @@ only $g( a \vec{s}_i )$ need to be computed and stored for each box
 
 <small>
 
-For each particle (position $x\in\Omega$):
 - start in root node
 - descent into subdomains and subdivide for $L$ levels (can have multiple particles per cell at lowest level)
 
@@ -243,7 +242,7 @@ For each particle (position $x\in\Omega$):
 
 # Required kernels: Downward Pass
 
-<img src="figures/L2L.png"></img>
+<img src="figures/M2M.png"></img>
 
 ---
 
@@ -304,7 +303,6 @@ Approximate potential of sets/clusters of particles
 
 2. <b>Fast Multipole</b>
   - higher-order representations necessary! 
-  - (simple pseudo particles together with well-separated criterion is too inaccurate)
   - no $\theta$-criterion to tune accuracy (instead choose number of terms in expansion)
 
 ---
