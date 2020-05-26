@@ -9,11 +9,11 @@
 
 # Complexity of Fast Multipole
 
-Lets do a computation with $N = 10^6$ particles assuming that $N$ computations take 1 minute
+Lets do a computation with $N = 10^6$ particles assuming that $N$ computations take 1 hour
 
-- $O(N)$ algorithm $\to$ 1 minute
-- $O(N\log N)$ algorithm $\to$ $10^6$ minutes, or almost two years
-- $O(N^2)$ algorithm $\to$ $10^{12}$ minutes, or almost 2 million years
+- $O(N)$ algorithm $\to$ 1 hour
+- $O(N\log N)$ algorithm $\to$ $14$ hours
+- $O(N^2)$ algorithm $\to$ $10^{6}$ hours, or 114 years
 
 ---
 
