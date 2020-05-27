@@ -1,0 +1,32 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'none'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
+
+menu:
+- {name: 'Teaching', path: 'menu', url: 'teaching'}
+- {name: 'Publications', path: 'menu', url: 'publications'}
+- {name: 'Talks', path: 'menu', url: 'talks'}
+- {name: 'Projects', path: 'menu', url: 'projects'}
+- {name: 'Contact', path: 'menu', url: 'contact'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'fab fa-github', link: 'https://www.github.com/annereinarz'}
+- {icon: 'fab fa-google', link: 'https://scholar.google.com/citations?user=fnqHYNcAAAAJ&hl=en&oi=ao'}
+- {icon: 'fab fa-researchgate', link: 'https://www.researchgate.net/profile/Anne_Reinarz'}
+- {icon: 'fas fa-envelope', link: 'mailto:reinarz@in.tum-.de'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy:'
+
+post_date_prefix: 'Written on'
