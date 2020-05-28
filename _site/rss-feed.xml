@@ -6,5 +6,89 @@
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
+			<item>
+				<title>Scientific Computing, Summer 2020</title>
+				
+					<dc:creator>Anne Reinarz</dc:creator>
+				
+				
+					<description>&lt;p&gt;This course provides a deeper knowledge in two important fields of scientific computing:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;molecular dynamics simulations
+    &lt;ul&gt;
+      &lt;li&gt;particle-based modelling (n-body simulation)&lt;/li&gt;
+      &lt;li&gt;algorithms for efficient force calculation&lt;/li&gt;
+      &lt;li&gt;parallelisation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+				
+				<pubDate>Wed, 27 May 2020 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/teaching/scicomp2.html</link>
+				<guid isPermaLink="true">http://localhost:4000/teaching/scicomp2.html</guid>
+			</item>
+		
+			<item>
+				<title>Modern Wave Propagation - Discontinuous Galerkin &amp; Julia, Summer 2020</title>
+				
+					<dc:creator>Anne Reinarz</dc:creator>
+				
+				
+					<description>&lt;div&gt;In the past few years, the Discontinuous Galerkin (DG) method has made waves. Wave propagation is everywhere: It is used to simulate earthquakes, tsunamis and even plasma physics. With the advent of many-core supercomputers it has become crucial to use communication avoiding methods. DG is currently one of the most promising.&lt;/div&gt;
+
+</description>
+				
+				<pubDate>Wed, 27 May 2020 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/teaching/dglab.html</link>
+				<guid isPermaLink="true">http://localhost:4000/teaching/dglab.html</guid>
+			</item>
+		
+			<item>
+				<title>ExaHyPE - An Exascale Hyperbolic PDE Engine</title>
+				
+					<dc:creator>Anne Reinarz</dc:creator>
+				
+				
+					<description>&lt;p&gt;ExaHyPE (“An Exascale Hyperbolic PDE Engine”) is a software engine for solving systems of first-order hyperbolic partial differential equations (PDEs). Hyperbolic PDEs are typically derived from the conservation laws of physics and are useful in a wide range of application areas. Applications powered by ExaHyPE can be run on a student’s laptop, but are also able to exploit thousands of processor cores on state-of-the-art supercomputers. The engine is able to dynamically increase the accuracy of the simulation using adaptive mesh refinement where required. Due to the robustness and shock capturing abilities of ExaHyPE’s numerical methods, users of the engine can simulate linear and non-linear hyperbolic PDEs with very high accuracy. Users can tailor the engine to their particular PDE by specifying evolved quantities, fluxes, and source terms. A complete simulation code for a new hyperbolic PDE can often be realised within a few hours — a task that, traditionally, can take weeks, months, often years for researchers starting from scratch.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 27 May 2020 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/projects/exahype-copy.html</link>
+				<guid isPermaLink="true">http://localhost:4000/projects/exahype-copy.html</guid>
+			</item>
+		
+			<item>
+				<title>ENERXICO</title>
+				
+					<dc:creator>Anne Reinarz</dc:creator>
+				
+				
+					<description>&lt;p&gt;ENERXICO will develop performance simulation tools that require exascale HPC and data intensive algorithms for different energy sources: wind energy production, efficient combustion systems for biomass-derived fuels (biogas) and exploration geophysics for hydrocarbon reservoirs&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 27 May 2020 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/projects/enerxico.html</link>
+				<guid isPermaLink="true">http://localhost:4000/projects/enerxico.html</guid>
+			</item>
+		
+			<item>
+				<title>Hyperbolic PDE Seminar, Winter 2019</title>
+				
+					<dc:creator>Anne Reinarz</dc:creator>
+				
+				
+					<description>&lt;p&gt;In this seminar we address numerical methods for the simulation of hyperbolic partial differential equations. We discuss important examples of governing equations. In this context challenges typical for hyperbolic PDEs are tackled: Non-linearities with analytical solution approaches, Riemann solvers, domain decomposition, finite volume methods, high-order discretization, time stepping schemes, adaptivity, parallelization etc. Besides numerical theory we expect the students to apply and implement the learned concepts in the form of a small project, which requires extensive use of the learned theory.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/teaching/hyPDE.html</link>
+				<guid isPermaLink="true">http://localhost:4000/teaching/hyPDE.html</guid>
+			</item>
+		
 	</channel>
 </rss>

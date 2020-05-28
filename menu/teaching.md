@@ -1,11 +1,7 @@
 ---
-layout: page
+layout: blog
 title: Teaching
+category: teaching
 ---
 
-# Teaching
-
-## Scientific Computing, Summer 2020
-- [Barnes-Hut](bh)
-- [Fast Multipole Method](fastmultipole)
 

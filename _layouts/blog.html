@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: blog
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.categories[page.category] %}
 <div class="posts">
   <h1>
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>

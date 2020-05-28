@@ -3,7 +3,6 @@ layout: page
 title: Publications
 ---
 
-# Publications
 
 ## Journal Publications
 - M. Dumbser, F. Fambri, E. Gaburro & A. Reinarz. On GLM curl cleaning for a first order reduction of the CCZ4 formulation of the Einstein field equations, Journal of Computational Physics, 2019.
@@ -34,3 +33,9 @@ title: Publications
 - A. Reinarz, T. Fletcher, T. J. Dodwell, R. Butler & R. Scheichl. Multiscale Modelling of Lamination Defects in Curved Structures, 21st International Conference on Composite Materials, 2017.
 
 - Fletcher T, Reinarz A, Dodwell T, Butler R, Scheichl R & Newley R., Efficient Modelling and Accurate Certification of Curved Aerospace Laminates. 17th Eur. Conf. Composite Materials, 2016.
+
+## Theses
+
+- Ph.D., University of Reading, Supervisors: Alexey Chernov and Steve Langdon. <em>Space-time Boundary Element Methods for the Heat Equation</em>, completed 2015.
+
+- Diploma thesis, University of Bonn, Germany. Supervisor: Alexey Chernov. <em>Numerical quadrature for high dimensional singular integrals<em>, completed 2010.

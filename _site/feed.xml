@@ -1,1 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-27T22:16:07+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Anne Reinarz</title><subtitle>Technical University of Munich</subtitle><author><name>Anne Reinarz</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-28T11:40:16+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Anne Reinarz</title><subtitle>Technical University of Munich</subtitle><author><name>Anne Reinarz</name></author><entry><title type="html">ENERXICO</title><link href="http://localhost:4000/projects/enerxico.html" rel="alternate" type="text/html" title="ENERXICO" /><published>2020-05-27T00:00:00+02:00</published><updated>2020-05-27T00:00:00+02:00</updated><id>http://localhost:4000/projects/enerxico</id><content type="html" xml:base="http://localhost:4000/projects/enerxico.html">&lt;p&gt;ENERXICO will develop performance simulation tools that require exascale HPC and data intensive algorithms for different energy sources: wind energy production, efficient combustion systems for biomass-derived fuels (biogas) and exploration geophysics for hydrocarbon reservoirs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://enerxico-project.eu/&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anne Reinarz</name></author><summary type="html">ENERXICO will develop performance simulation tools that require exascale HPC and data intensive algorithms for different energy sources: wind energy production, efficient combustion systems for biomass-derived fuels (biogas) and exploration geophysics for hydrocarbon reservoirs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/enerxico.png" /></entry><entry><title type="html">ExaHyPE - An Exascale Hyperbolic PDE Engine</title><link href="http://localhost:4000/projects/exahype-copy.html" rel="alternate" type="text/html" title="ExaHyPE - An Exascale Hyperbolic PDE Engine" /><published>2020-05-27T00:00:00+02:00</published><updated>2020-05-27T00:00:00+02:00</updated><id>http://localhost:4000/projects/exahype%20copy</id><content type="html" xml:base="http://localhost:4000/projects/exahype-copy.html">&lt;p&gt;ExaHyPE (“An Exascale Hyperbolic PDE Engine”) is a software engine for solving systems of first-order hyperbolic partial differential equations (PDEs). Hyperbolic PDEs are typically derived from the conservation laws of physics and are useful in a wide range of application areas. Applications powered by ExaHyPE can be run on a student’s laptop, but are also able to exploit thousands of processor cores on state-of-the-art supercomputers. The engine is able to dynamically increase the accuracy of the simulation using adaptive mesh refinement where required. Due to the robustness and shock capturing abilities of ExaHyPE’s numerical methods, users of the engine can simulate linear and non-linear hyperbolic PDEs with very high accuracy. Users can tailor the engine to their particular PDE by specifying evolved quantities, fluxes, and source terms. A complete simulation code for a new hyperbolic PDE can often be realised within a few hours — a task that, traditionally, can take weeks, months, often years for researchers starting from scratch.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://exahype.eu&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1016/j.cpc.2020.107251&quot;&gt;Release Paper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.lrz.de/exahype/ExaHyPE-Engine&quot;&gt;Gitlab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anne Reinarz</name></author><summary type="html">ExaHyPE (“An Exascale Hyperbolic PDE Engine”) is a software engine for solving systems of first-order hyperbolic partial differential equations (PDEs). Hyperbolic PDEs are typically derived from the conservation laws of physics and are useful in a wide range of application areas. Applications powered by ExaHyPE can be run on a student’s laptop, but are also able to exploit thousands of processor cores on state-of-the-art supercomputers. The engine is able to dynamically increase the accuracy of the simulation using adaptive mesh refinement where required. Due to the robustness and shock capturing abilities of ExaHyPE’s numerical methods, users of the engine can simulate linear and non-linear hyperbolic PDEs with very high accuracy. Users can tailor the engine to their particular PDE by specifying evolved quantities, fluxes, and source terms. A complete simulation code for a new hyperbolic PDE can often be realised within a few hours — a task that, traditionally, can take weeks, months, often years for researchers starting from scratch.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/exa.jpg" /></entry><entry><title type="html">Modern Wave Propagation - Discontinuous Galerkin &amp;amp; Julia, Summer 2020</title><link href="http://localhost:4000/teaching/dglab.html" rel="alternate" type="text/html" title="Modern Wave Propagation - Discontinuous Galerkin &amp; Julia, Summer 2020" /><published>2020-05-27T00:00:00+02:00</published><updated>2020-05-27T00:00:00+02:00</updated><id>http://localhost:4000/teaching/dglab</id><content type="html" xml:base="http://localhost:4000/teaching/dglab.html">&lt;div&gt;In the past few years, the Discontinuous Galerkin (DG) method has made waves. Wave propagation is everywhere: It is used to simulate earthquakes, tsunamis and even plasma physics. With the advent of many-core supercomputers it has become crucial to use communication avoiding methods. DG is currently one of the most promising.&lt;/div&gt;
+
+&lt;div&gt;The goal of this lab course is to write a numerical solver for hyperbolic partial differential equations using the DG method with the modern programming language Julia. We provide a framework which handles input/output, mesh construction and other boilerplate tasks. Missing in this framework is the implementation of the numerical method. This is your task.&lt;/div&gt;
+
+&lt;div&gt;We introduce (only) the necessary theory in lecture-style presentations. You then have to apply this in practice by modifying the provided framework. The expected result is a DG-solver that can be used to simulate various wave problems at a reasonable speed.&lt;/div&gt;
+
+&lt;div&gt;The lab course ends with a project, in which you investigate further aspects. Examples for this could be performance optimizations, modifications of the numerical method and the implementation of example scenarios (e.g. tsunamis).&lt;/div&gt;
+
+&lt;h2 id=&quot;course-information&quot;&gt;Course Information&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://campus.tum.de/tumonline/wbLv.wbShowLVDetail?pStpSpNr=950488138&amp;amp;pSpracheNr=2&amp;amp;pMUISuche=FALSE&quot;&gt;TUMonline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.moodle.tum.de/course/view.php?id=53375&quot;&gt;Moodle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anne Reinarz</name></author><summary type="html">In the past few years, the Discontinuous Galerkin (DG) method has made waves. Wave propagation is everywhere: It is used to simulate earthquakes, tsunamis and even plasma physics. With the advent of many-core supercomputers it has become crucial to use communication avoiding methods. DG is currently one of the most promising.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/airfoil_t11.png" /></entry><entry><title type="html">Scientific Computing, Summer 2020</title><link href="http://localhost:4000/teaching/scicomp2.html" rel="alternate" type="text/html" title="Scientific Computing, Summer 2020" /><published>2020-05-27T00:00:00+02:00</published><updated>2020-05-27T00:00:00+02:00</updated><id>http://localhost:4000/teaching/scicomp2</id><content type="html" xml:base="http://localhost:4000/teaching/scicomp2.html">&lt;p&gt;This course provides a deeper knowledge in two important fields of scientific computing:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;molecular dynamics simulations
+    &lt;ul&gt;
+      &lt;li&gt;particle-based modelling (n-body simulation)&lt;/li&gt;
+      &lt;li&gt;algorithms for efficient force calculation&lt;/li&gt;
+      &lt;li&gt;parallelisation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;iterative solution of large sparse systems of linear equations:
+    &lt;ul&gt;
+      &lt;li&gt;relaxation methods&lt;/li&gt;
+      &lt;li&gt;multigrid methods&lt;/li&gt;
+      &lt;li&gt;steepest descent&lt;/li&gt;
+      &lt;li&gt;conjugate gradient methods&lt;/li&gt;
+      &lt;li&gt;preconditioning&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The course is conceived for students in computer science, mathematics, or some field of science or engineering who already have a certain background in the numerical treatment of (partial) differential equations.&lt;/p&gt;
+
+&lt;h2 id=&quot;course-information&quot;&gt;Course Information&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://campus.tum.de/tumonline/wbLv.wbShowLVDetail?pStpSpNr=950461421&quot;&gt;TUMonline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.moodle.tum.de/course/view.php?id=53107&quot;&gt;Moodle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;selected-lecture-slides&quot;&gt;Selected lecture slides&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;../bh&quot;&gt;Barnes-Hut&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../fastmultipole&quot;&gt;Fast Multipole Method&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;youtube-playlist-of-the-lecture-videos&quot;&gt;Youtube Playlist of the lecture videos&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL7OAH1T9Tl0bTAU04KXJ209blUBDFYXHW&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anne Reinarz</name></author><summary type="html">This course provides a deeper knowledge in two important fields of scientific computing: molecular dynamics simulations particle-based modelling (n-body simulation) algorithms for efficient force calculation parallelisation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/test1_0.jpg" /></entry><entry><title type="html">Hyperbolic PDE Seminar, Winter 2019</title><link href="http://localhost:4000/teaching/hyPDE.html" rel="alternate" type="text/html" title="Hyperbolic PDE Seminar, Winter 2019" /><published>2020-01-01T00:00:00+01:00</published><updated>2020-01-01T00:00:00+01:00</updated><id>http://localhost:4000/teaching/hyPDE</id><content type="html" xml:base="http://localhost:4000/teaching/hyPDE.html">&lt;p&gt;In this seminar we address numerical methods for the simulation of hyperbolic partial differential equations. We discuss important examples of governing equations. In this context challenges typical for hyperbolic PDEs are tackled: Non-linearities with analytical solution approaches, Riemann solvers, domain decomposition, finite volume methods, high-order discretization, time stepping schemes, adaptivity, parallelization etc. Besides numerical theory we expect the students to apply and implement the learned concepts in the form of a small project, which requires extensive use of the learned theory.&lt;/p&gt;
+
+&lt;h2 id=&quot;course-information&quot;&gt;Course Information&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://campus.tum.de/tumonline/wbLv.wbShowLVDetail?pStpSpNr=950435154&quot;&gt;TUMonline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.moodle.tum.de/course/view.php?id=49633&quot;&gt;Moodle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anne Reinarz</name></author><summary type="html">In this seminar we address numerical methods for the simulation of hyperbolic partial differential equations. We discuss important examples of governing equations. In this context challenges typical for hyperbolic PDEs are tackled: Non-linearities with analytical solution approaches, Riemann solvers, domain decomposition, finite volume methods, high-order discretization, time stepping schemes, adaptivity, parallelization etc. Besides numerical theory we expect the students to apply and implement the learned concepts in the form of a small project, which requires extensive use of the learned theory.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/hype.png" /></entry></feed>
