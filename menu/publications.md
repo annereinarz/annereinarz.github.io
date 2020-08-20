@@ -55,6 +55,10 @@ title: Publications
 - Diploma thesis, University of Bonn, Germany. Supervisor: Alexey Chernov. <em>Numerical quadrature for high dimensional singular integrals<em>, completed 2010.<br>
 
 
+## Other
+
+- Quartl article (only available in German): [PDF](https://www5.in.tum.de/quartl/2020/quartl94_n.pdf)
+
 ## Supervised Student Projects
 - Sebastian Walter, Deep Learning for Parameter Reduction
 on Real-World Topography Data, Master Thesis.<br>
