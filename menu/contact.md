@@ -8,6 +8,13 @@ If you are have any questions or suggestions, feel free to contact me by email. 
 </div>
 
 
+**Address**:<br>
+Department of Computer Science,
+Durham University,
+Lower Mountjoy,
+South Road,
+DURHAM, DH1 3LE
+
 **Email**:<br>
 anne.k.reinarz@durham.ac.uk
 
