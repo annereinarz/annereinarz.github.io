@@ -35,8 +35,12 @@
 
 ---
 
-# Zoom stuff goes here
+# Introductory Remarks
 
+- All lectures will take place via zoom
+- Please remain muted unless you want to ask a question
+- Questions can also be typed in the chat
+- Office hours can be arranged by email
 
 
 ---
@@ -86,7 +90,7 @@ A computer network is a group of devices that are connected to one another in or
 ## The Internet: "nuts and bolts" view
 
 - Billions of connected computing devices: 
-<img src="../images/devices.png" style="height: 4em"></img>
+<img src="images/devices.png" style="height: 4em"></img>
     - Hosts = end systems
     - Running network apps
 
@@ -97,7 +101,7 @@ A computer network is a group of devices that are connected to one another in or
 
 
 <div style="display: flex; justify-content: space-evenly;">
-<img src="../images/internet.png"></img>
+<img src="images/internet.png"></img>
 
 - Communication links
     - Fiber, copper, radio, satellite
@@ -162,14 +166,14 @@ Protocols define the format and order of messages sent and received among networ
 
 - a human protocol and a computer network protocol:
 
-<img src="../images/terribleclipart.png"></src>
+<img src="images/terribleclipart.png"></src>
 
 ---
 
 # Access network: 
 ## digital subscriber line (DSL)
 
-<img src="../images/DSL.png"></img>
+<img src="images/DSL.png"></img>
 
 ---
 
@@ -190,7 +194,7 @@ Protocols define the format and order of messages sent and received among networ
 ## cable network
 
 
-<img src="../images/cable.png"></img>
+<img src="images/cable.png"></img>
 
 ---
 
@@ -209,7 +213,7 @@ Protocols define the format and order of messages sent and received among networ
 ## Ethernet
 
 
-<img src="../images/ethernet.png"></img>
+<img src="images/ethernet.png"></img>
 
 ---
 
@@ -225,7 +229,7 @@ Protocols define the format and order of messages sent and received among networ
 # Access network: 
 ## home network
 
-<img src="../images/home.png"></img>
+<img src="images/home.png"></img>
 
 ---
 
@@ -242,7 +246,7 @@ Protocols define the format and order of messages sent and received among networ
 <div style="display: flex; justify-content: space-evenly;">
 
 <div>
-<img src="../images/LAN.png" style="height:6em"></img>
+<img src="images/LAN.png" style="height:6em"></img>
 
 - Wireless LANs:
     - Within building (~100 ft.)  
@@ -250,11 +254,11 @@ Protocols define the format and order of messages sent and received among networ
     - 54~1300 Mbps transmission rate
 </div>
 <div>
-<img src="../images/WAN.png" style="height:6em"></img>
+<img src="images/WAN.png" style="height:6em"></img>
 - Wide-area wireless access
 - Provided by telco (mobile) operator, 10’s of km
 - Between 1 and 10 Mbps 
-- 3G, 4G, 5G, LTE (“Long Term Evolution”)
+- 3G, 4G,  LTE (“Long Term Evolution”), 5G
 </div>
 
 </div>
@@ -292,7 +296,7 @@ Protocols define the format and order of messages sent and received among networ
 
 
 <div>
-<img src="../images/TP.jpeg" style="height:6em"></src>
+<img src="images/TP.jpeg" style="height:6em"></src>
 
 ## Twisted pair:
 - Two insulated copper wires
@@ -301,7 +305,7 @@ Protocols define the format and order of messages sent and received among networ
 </div>
 
 <div>
-<a title="Tkgd2007 / CC BY (https://creativecommons.org/licenses/by/3.0)" href="https://commons.wikimedia.org/wiki/File:Coaxial_cable_cutaway.svg"><img src="../images/coax.png" style="height:6em"></src></a>
+<a title="Tkgd2007 / CC BY (https://creativecommons.org/licenses/by/3.0)" href="https://commons.wikimedia.org/wiki/File:Coaxial_cable_cutaway.svg"><img src="images/coax.png" style="height:6em"></src></a>
 
 ## Coaxial cable:
 - Two concentric copper conductors
@@ -315,7 +319,7 @@ Protocols define the format and order of messages sent and received among networ
 
 # Physical Media
 
-<img src="../images/fibre.png" style="height:4em"></src>
+<img src="images/fibre.png" style="height:4em"></src>
 
 ### Fiber optic cable:
 
@@ -367,9 +371,12 @@ Classified into 3 groups:
 
 # Physical Media
 
-### Satelite
+### Satellite Radio Channels
 
-TODO
+- Two types of satellites for communications:
+    - geostationary (~36000 km above earth, stationary)
+    - used where DSL or cable-based access is unavailable
+    - low-earth orbiting (closer to earth, move over the surface)
 
 ---
 
@@ -397,7 +404,7 @@ TODO
 # Packet sniffing: 
 - Broadcast media (shared Ethernet, wireless)
 - “Promiscuous” network interface reads/records all packets (e.g., including passwords!) passing by
-<img src="../images/security.png" style="height:4em"></src>
+<img src="images/security.png" style="height:4em"></src>
 - Wireshark software used in the labs is an open source packet-sniffer
 
 
