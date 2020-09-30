@@ -21,6 +21,7 @@
 
 ### Practicals:
 - Demonstrators will be present to assist you in the labs
+- Currently planned to take place in person
 - Labs described on DUO (weeks 2,4,6,8, and 10)
 
 
@@ -77,6 +78,11 @@
 
 # Computer Network
 
+
+---
+
+# Computer Network
+
 ### Definition:
 
 A computer network is a group of devices that are connected to one another in order to exchange information or share resources.
@@ -128,6 +134,10 @@ A computer network is a group of devices that are connected to one another in or
 
 # What’s a protocol?
 
+---
+
+# What’s a protocol?
+
 <div class="boxed">
 Protocols define the format and order of messages sent and received among network entities, and actions taken on message transmission and receipt.
 </div><br>
@@ -167,6 +177,10 @@ Protocols define the format and order of messages sent and received among networ
 - a human protocol and a computer network protocol:
 
 <img src="images/terribleclipart.png"></src>
+
+---
+
+# Access network: 
 
 ---
 
@@ -265,6 +279,20 @@ Protocols define the format and order of messages sent and received among networ
 
 ---
 
+# Internet of Things (IoT)
+
+
+<img src="images/iot1.png" style="height:6em"></img>
+
+<a href="https://arstechnica.com/cars/2020/02/driver-stranded-after-connected-rental-car-cant-call-home/">Link</a>
+
+
+---
+
+# Physical Media
+
+---
+
 # Physical Media
 
 - Bit
@@ -305,7 +333,7 @@ Protocols define the format and order of messages sent and received among networ
 </div>
 
 <div>
-<a title="Tkgd2007 / CC BY (https://creativecommons.org/licenses/by/3.0)" href="https://commons.wikimedia.org/wiki/File:Coaxial_cable_cutaway.svg"><img src="images/coax.png" style="height:6em"></src></a>
+<a title="Tkgd2007 / CC BY (https://creativecommons.org/licenses/by/3.0)" href="https://commons.wikimedia.org/wiki/File:Coaxial_cable_cutaway.svg"><img src="images/coax.png" style="height:6em"></img></a>
 
 ## Coaxial cable:
 - Two concentric copper conductors
@@ -331,7 +359,6 @@ Protocols define the format and order of messages sent and received among networ
     - Immune to electromagnetic noise
 
 </div>
-
 
 ---
 
@@ -373,10 +400,19 @@ Classified into 3 groups:
 
 ### Satellite Radio Channels
 
+<div style="display: flex; justify-content: space-evenly;">
+
+<a title="ISS Twitter" href="https://twitter.com/Space_Station"><img src="images/iss.png"></img></a>
+
+<div>
+
 - Two types of satellites for communications:
     - geostationary (~36000 km above earth, stationary)
     - used where DSL or cable-based access is unavailable
     - low-earth orbiting (closer to earth, move over the surface)
+
+</div>
+</div>
 
 ---
 
