@@ -32,7 +32,7 @@
 ### Assessment:
 - 100% coursework
 - Hand out date: Week 4 (Monday 26th October)
-- Hand in date: Week 10 (Monday 7th December)
+- Hand in date: Term 2 (Monday 11th February)
 
 ---
 
