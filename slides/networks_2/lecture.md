@@ -125,9 +125,12 @@
 
 ---
 
-# Caravan analogy
+# A practical example
 
-TODO replace with example
+<img src="images/prob+.png" style="height:73m"></img>
+
+- How long does it take a packet of 1Mb from source to destination?
+- Assume that the propagation speed in all segments is 2 km/s
 
 ---
 
@@ -173,6 +176,10 @@ TODO replace with example
 # Alternative core: circuit switching
 
 <img src="images/circuitswitching.png"></img>
+
+---
+
+# Protocol layers
 
 ---
 
