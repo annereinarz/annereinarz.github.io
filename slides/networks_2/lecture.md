@@ -35,6 +35,20 @@
 
 ---
 
+# Two key network-core functions
+
+<div style="display: flex; justify-content:space-evenly;">
+<div>
+1. Routing: determines source-destination route taken by packets
+</div><div>
+2. Forwarding: move packets from router’s input to appropriate router output
+</div></div>
+
+<img src="images/routingforwarding.png" style="height:7em"></img>
+
+
+---
+
 ## Packet-switching: store-and-forward
 
 <img src="images/packetswitching.png" style="height:5em"></img>
@@ -56,19 +70,6 @@
     - Packets can be dropped (lost) if memory (buffer) fills up
 <div></div>
 
----
-
-# Two key network-core functions
-
-<div style="display: flex; justify-content:space-evenly;">
-<div>
-1. Routing: determines source-destination route taken by packets
-</div><div>
-2. Forwarding: move packets from router’s input to appropriate router output
-</div></div>
-
-<img src="images/routingforwarding.png" style="height:7em"></img>
-
 
 ---
 
@@ -79,6 +80,18 @@
     - Packets queue, wait for turn
 
 <img src="images/delay.png" style="height:7em"></img>
+
+---
+
+# Packet loss
+
+- Queue (aka buffer) preceding link in buffer has finite capacity
+- Packet arriving to a full queue dropped (aka lost)
+- Lost packet may be retransmitted by previous node, by source end system, or not at all
+
+
+<img src="images/loss.png" style="height:7em"></img>
+
 
 ---
 
@@ -102,21 +115,22 @@
 
 <div>
 
-- $d_{proc}$: nodal processing:
+- $d_{proc}$: nodal processing
     - Check bit errors
     - Determine output link
     - Typically < msec
-- $d_{queue}$: queueing delay:
+- $d_{queue}$: queueing delay
     - Time waiting at output link for transmission 
     - Depends on congestion level of router
 </div>
 <div>
 
-- $d_{trans}$: transmission delay:
+
+- $d_{trans}$: transmission
     - L: packet length (bits) 
     - R: link bandwidth (bps)
     - $d_{trans}$ = L/R
-- $d_{prop}$: propagation delay:
+- $d_{prop}$: propagation
     - d: length of physical link
     - s: propagation speed (~2x108 meters/sec)
     - $d_{prop}$ = d/s
@@ -127,21 +141,10 @@
 
 # A practical example
 
-<img src="images/prob+.png" style="height:73m"></img>
+<img src="images/prob+.png" style="height:6cm"></img>
 
 - How long does it take a packet of 1Mb from source to destination?
 - Assume that the propagation speed in all segments is 2 km/s
-
----
-
-# Packet loss
-
-- Queue (aka buffer) preceding link in buffer has finite capacity
-- Packet arriving to a full queue dropped (aka lost)
-- Lost packet may be retransmitted by previous node, by source end system, or not at all
-
-
-<img src="images/loss.png" style="height:7em"></img>
 
 ---
 
@@ -209,13 +212,10 @@
 # Protocol layers
 
 - Explicit structure allows identification, relationship of complex system’s pieces
-    - Layered reference model for discussion
 - Modularization eases maintenance, updating of system
     - Change of implementation of layer’s service transparent to rest of system<br>
 
 <br></br>
-
-### Layering considered harmful?
 
 ---
 
