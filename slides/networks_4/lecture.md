@@ -145,6 +145,12 @@ between client and serve
 
 ---
 
+## Transport services and protocols
+
+<img src="images/transportlayer.png" style="height:14em"></img>
+
+---
+
 # Transport vs. network layer
 
 ## Network layer: 
@@ -153,12 +159,25 @@ between client and serve
 
 ## Transport layer:
 - Logical communication between processes 
-    -  Relies on & enhances network layer services<br></br>
+    -  Relies on & enhances network layer services
+
+
+---
+
+## Internet transport-layer protocols
+
+#### TCP (Transmission Control Protocol)
+- Reliable, in-order delivery
+- Congestion control, flow control, ack., timer<br></br>
+#### UDP (User Datagram Protocol)
+- Unreliable, unordered delivery
+- No-frills extension of IP<br></br>
 
 <div class="boxed">
 TCP & UDP extend IP delivery service between hosts to deliver service between processes -> transport layer multiplexing and demultiplexing
 </div>
 
+
 ---
 
 # Multiplexing/demultiplexing
@@ -169,7 +188,38 @@ TCP & UDP extend IP delivery service between hosts to deliver service between pr
 
 # Multiplexing/demultiplexing
 
+#### Multiplexing at sender
+- Handle data from multiple sockets, add transport header (later used for demultiplexing)<br></br>
 
+#### Demultiplexing at receiver
+- Use header info to deliver
+received segments to correct 
+socket
+
+---
+
+# Multiplexing/demultiplexing
+
+<img src="images/multiplexing.png"></img>
+
+---
+
+# Multiplexing/demultiplexing
+#### Example
+
+<div style="display:flex; justify-content-evenly;">
+
+
+- Host C initiates 2 HTTP</br> sessions to B
+- Host A initiates 1 HTTP</br> session to B
+- Server B demultiplexes<br> correctly as the two</br>
+identical port numbers</br> come from different IP addresses
+
+
+
+<img src="images/ab.png"></img>
+
+</div>
 
 ---
 
@@ -178,15 +228,91 @@ TCP & UDP extend IP delivery service between hosts to deliver service between pr
 - Each datagram has source IP address, destination IP address
 - Each datagram carries one transport-layer segment
 - Each segment has source, destination port number 
-- Host uses IP addresses & port numbers to direct segment to appropriate socket
-- Each socket has a unique identifier
 
 ---
 
-# Reliable data transfer: getting started
+# TCP/UDP Segment format
 
-<img src="images/reliabledatatransfer.png"></img>
+<div style="display:flex; justify-content-evenly;">
 
+- Host uses IP addresses</br>
+& port numbers to direct </br>
+segment to appropriate</br> socket
+- Each socket has a unique identifier
+
+<img src="images/ports.png"></img>
+
+</div>
+
+---
+
+# Connectionless multiplexing/demultiplexing
+- All sockets have host-local port #
+- Assigned automatically, or via <code>bind()</code>
+- <code>serverSocket.bind((ip,port))</code><br></br>
+
+<div class="boxed">
+<b>Recall:</b> when creating datagram to send into UDP socket, must specify
+destination IP address and  port #
+
+</div>
+
+---
+
+# Connectionless multiplexing/demultiplexing
+
+- When host receives UDP segment:
+    - Checks destination port # in segment
+    - Directs UDP segment to socket with that port #<br></br>
+
+<div class="boxed">
+If two UDP segments have different source IP addresses and/or source port numbers but same dest. IP & port #, they will be directed to same process via same socket at destination
+</div>
+
+---
+
+# Connectionless multiplexing/demultiplexing
+
+<div style="display:flex; justify-content-evenly;">
+
+<small>
+
+- <code>serverSocket.bind((’’, 6428))</code>
+- <code>clientSocket = socket(...)</br> #assigned port 9157</code>
+- <code>clientSocket = socket(...)</br>  #assigned port 5775</code>
+
+</small>
+
+<img src="images/connectionless.png"></img>
+
+</div>
+
+---
+
+
+
+---
+
+# Reliable data transfer
+- Important in application, transport, link layers
+    - Top-10 list of important networking topics
+- Characteristics of unreliable channel will determine the complexity of a reliable data transfer protocol (rdt)
+
+
+---
+
+# Reliable data transfer
+
+<img src="images/reliabledatatransfer.png" style="height:12em"></img>
+
+---
+
+
+# Reliable data transfer
+- A reliable protocol (TCP) may be implemented on top of an unreliable end-to-end network layer (IP)
+- Reliable transfer over UDP: 
+    - Add reliability at application layer
+    - Application-specific error recovery
 
 ---
 
