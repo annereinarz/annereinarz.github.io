@@ -272,6 +272,49 @@
 
 ---
 
+# P2P architecture: example
+
+- P2P messenger
+- using TCP
+
+
+---
+
+# P2P architecture: solution
+
+<pre><code>import socket
+import threading
+import sys
+from getopt import getopt
+
+def receiver(address):
+    with socket.socket() as s:
+        s.bind(address)
+        s.listen(1)
+        while True:
+            connection, (peer_ip, _) = s.accept()
+            with connection:
+                message = connection.recv(1024).decode()
+                print("{}: {}".format(peer_ip, message))
+
+def sender(address):
+    while True:
+        message = input(">> ")
+        with socket.socket() as s:
+            s.connect(address)
+            s.sendall(message.encode())
+
+def start():
+    o = dict(getopt(sys.argv[1:], 'h:p:l:')[0])
+    threading.Thread(target=receiver, args=(('', int(o.get('-l',8080))),)).start()
+    threading.Thread(target=sender, args=((o.get('-h',''), int(o.get('-p',8080))),)).start()
+
+if __name__ == "__main__":
+    start()
+</code></pre>
+
+---
+
 # App-layer protocol defines
 
 - Types of messages exchanged 
