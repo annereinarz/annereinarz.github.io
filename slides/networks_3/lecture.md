@@ -280,41 +280,6 @@
 
 ---
 
-# P2P architecture: solution
-
-<pre><code>import socket
-import threading
-import sys
-from getopt import getopt
-
-def receiver(address):
-    with socket.socket() as s:
-        s.bind(address)
-        s.listen(1)
-        while True:
-            connection, (peer_ip, _) = s.accept()
-            with connection:
-                message = connection.recv(1024).decode()
-                print("{}: {}".format(peer_ip, message))
-
-def sender(address):
-    while True:
-        message = input(">> ")
-        with socket.socket() as s:
-            s.connect(address)
-            s.sendall(message.encode())
-
-def start():
-    o = dict(getopt(sys.argv[1:], 'h:p:l:')[0])
-    threading.Thread(target=receiver, args=(('', int(o.get('-l',8080))),)).start()
-    threading.Thread(target=sender, args=((o.get('-h',''), int(o.get('-p',8080))),)).start()
-
-if __name__ == "__main__":
-    start()
-</code></pre>
-
----
-
 # App-layer protocol defines
 
 - Types of messages exchanged 
@@ -459,6 +424,18 @@ time for a small packet to travel from client to server and back
 - Persistent HTTP response time = RTT + file transmission
     - Assuming connections to server already established
     - Assuming all files requested in parallel
+
+---
+
+# HTTP Standardds
+- HTTP/1.1 introduced 1997
+- HTTP/2 currently in use
+    - requires Transport Layer Security (TLS) 1.2 or newer
+- HTTP/3 proposed next standard
+    - already in use by some browsers
+    - uses UDP not TCP (see QUIC)
+    - attempts to solve "head-of-line" blocking
+
 
 ---
 
