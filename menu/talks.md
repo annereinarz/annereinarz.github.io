@@ -21,6 +21,10 @@ title: Recent Conference Contributions
 
 - Dune  User Meeting, Heidelberg, 2017.
 
+## Workshops
+
+- [ExaHyPE 2(020)](http://www.peano-framework.org/index.php/workshops/exahype-2020-user-workshop/) - User Workshop, Zoom, 2020.
+
 ## Posters
 
 - SIAM CSE19, Spokane, 2019.
@@ -29,6 +33,7 @@ title: Recent Conference Contributions
 
 
 ## Organisation
+- 2020: [CHEESE Advanced Training on HPC for Computational Seismology](https://cheese-coe.eu/events/patc-cheese-advanced-training-hpc-computational-seismology), Zoom, October.
 
 - 2020: MUQ Workshop in Garching (took place online due to Covid-19), March.
 
