@@ -21,17 +21,6 @@ title: Recent Conference Contributions
 
 - Dune  User Meeting, Heidelberg, 2017.
 
-## Workshops
-
-- [ExaHyPE 2(020)](http://www.peano-framework.org/index.php/workshops/exahype-2020-user-workshop/) - User Workshop, Zoom, 2020.
-
-## Posters
-
-- SIAM CSE19, Spokane, 2019.
-
--  PDE Software Frameworks 2018, Bergen.
-
-
 ## Organisation
 - 2020: [CHEESE Advanced Training on HPC for Computational Seismology](https://cheese-coe.eu/events/patc-cheese-advanced-training-hpc-computational-seismology), Zoom, October.
 
@@ -46,3 +35,16 @@ title: Recent Conference Contributions
 - 2015:  National SIAM Student Chapter Conference
 
 - 2013: Reading SIAM Student Chapter Conference
+
+## Posters
+
+- SIAM CSE19, Spokane, 2019.
+- PDE Software Frameworks 2018, Bergen.
+
+## Workshop (participation)
+
+- [ExaHyPE 2(020)](http://www.peano-framework.org/index.php/workshops/exahype-2020-user-workshop/) - User Workshop, Zoom, 2020.
+- [Dirac Intel Hackathon](https://dirac.ac.uk/dirac-day-registration-2/)
+
+
+

@@ -59,7 +59,17 @@ title: Publications
 
 - Quartl article (only available in German): [PDF](https://www5.in.tum.de/quartl/2020/quartl94_n.pdf)
 
+
 ## Supervised Student Projects
+
+- Mohamed Houssein Zaghdane, Quantifying the Effect of Initial Conditions on
+Tsunami Simulation Using Bayesian Methods, October 2020.<br>
+   [PDF](https://mediatum.ub.tum.de/doc/1577688/1577688.pdf) [MediaTUM](https://mediatum.ub.tum.de/604993?query=zaghdane&show_id=1577688)
+
+- Sebastian Schäfer,Efficiencency Analysis of Seismic high Performance Simulationsi, September 2020.<br>
+    Co-supervised by Sebastian Wolf<br>
+    [MediaTUM](https://mediatum.ub.tum.de/1576169)
+
 - Sebastian Walter, Deep Learning for Parameter Reduction
 on Real-World Topography Data, Master Thesis.<br>
     Co-supervised by Lukas Krenz<br>

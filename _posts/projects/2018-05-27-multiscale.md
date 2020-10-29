@@ -12,3 +12,4 @@ The module <em>dune-composites</em> can be used to solve a range of industrially
 
 - [Release Paper](https://www.sciencedirect.com/science/article/pii/S0010465519303364)
 - [Gitlab](https://gitlab.dune-project.org/anne.reinarz/dune-composites)
+- [News](https://www.bath.ac.uk/case-studies/improving-composite-wing-part-manufacture/) 
