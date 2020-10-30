@@ -22,7 +22,8 @@ title: Recent Conference Contributions
 - Dune  User Meeting, Heidelberg, 2017.
 
 ## Organisation
-- 2020: [CHEESE Advanced Training on HPC for Computational Seismology](https://cheese-coe.eu/events/patc-cheese-advanced-training-hpc-computational-seismology), Zoom, October.
+- 2020: [CHEESE Advanced Training on HPC for Computational Seismology](https://cheese-coe.eu/events/patc-cheese-advanced-training-hpc-computational-seismology), Zoom, October.<br>
+  [News](https://cheese-coe.eu/media/news/participants-all-over-world-join-cheeses-computational-seismology-course)
 
 - 2020: MUQ Workshop in Garching (took place online due to Covid-19), March.
 
