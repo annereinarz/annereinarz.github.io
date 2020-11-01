@@ -462,7 +462,7 @@ time for a small packet to travel from client to server and back
 
 ---
 
-# HTTP Standardds
+# HTTP Standards
 - HTTP/1.1 introduced 1997
 - HTTP/2 currently in use
     - requires Transport Layer Security (TLS) 1.2 or newer
