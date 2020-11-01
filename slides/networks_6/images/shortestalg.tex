@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[active,tightpage]{preview}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{7pt}
+\definecolor{pinegreen}{cmyk}{0.92,0,0.59,0.25}
+\definecolor{royalblue}{cmyk}{1,0.50,0,0}
+\definecolor{lavander}{cmyk}{0,0.48,0,0}
+\definecolor{violet}{cmyk}{0.79,0.88,0,0}
+\tikzstyle{cblue}=[circle, draw, thin,fill=cyan!20, scale=0.8]
+\tikzstyle{cempt}=[circle, draw, thin, scale=0.8]
+\tikzstyle{qgre}=[rectangle, draw, thin,fill=green!20, scale=0.8]
+\tikzstyle{rpath}=[ultra thick, red, opacity=0.4]
+\tikzstyle{legend_isps}=[rectangle, rounded corners, thin, 
+                       fill=gray!20, text=blue, draw]
+                        
+\tikzstyle{legend_overlay}=[rectangle, rounded corners, thin,
+                           top color= white,bottom color=green!25,
+                           minimum width=2.5cm, minimum height=0.8cm,
+                           pinegreen]
+\tikzstyle{legend_phytop}=[rectangle, rounded corners, thin,
+                          top color= white,bottom color=cyan!25,
+                          minimum width=2.5cm, minimum height=0.8cm,
+                          royalblue]
+\tikzstyle{legend_general}=[rectangle, rounded corners, thin,
+                          top color= white,bottom color=lavander!25,
+                          minimum width=2.5cm, minimum height=0.8cm,
+                          violet]
+\begin{document}
+\begin{tikzpicture}[auto, thick, scale=1]
+
+\node[cblue] (n1) at (0,0) {A};
+\node at (-1.4,0) {initial node};
+
+\node[cempt] (n2) at (1,1) {B};
+\node[cempt] (n3) at (4,1) {C};
+\node[cempt] (n4) at (5,0) {D};
+\node[cempt] (n5) at (2,0) {E};
+\node[cempt] (n6) at (3,0) {F};
+\node[cempt] (n7) at (4,-1) {H};
+\node[cempt] (n8) at (1,-1) {G};
+ 
+\draw[thin] (n1) -- (n2) node[midway] {2};
+\draw[thin] (n2) -- (n3) node[midway] {7};
+\draw[thin] (n3) -- (n4) node[midway] {3};
+\draw[thin] (n1) -- (n8) node[midway] {6};
+\draw[thin] (n8) -- (n7) node[midway] {4};
+\draw[thin] (n7) -- (n4) node[midway] {2};
+\draw[thin] (n8) -- (n5) node[midway] {1};
+\draw[thin] (n2) -- (n5) node[midway] {2};
+\draw[thin] (n3) -- (n6) node[midway] {3};
+\draw[thin] (n7) -- (n6) node[midway] {2};
+\draw[thin] (n5) -- (n6) node[midway] {2};
+
+\end{tikzpicture}
+\end{document}
