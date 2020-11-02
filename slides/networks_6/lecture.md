@@ -122,6 +122,14 @@ then the optimal path from J to K is on the same route
 
 ---
 
+# Black Holes
+
+<img src="images/as.png"></img>
+
+[Article](https://www.cnet.com/news/router-glitch-cuts-net-access/)
+
+---
+
 # The Count-to-Infinity Problem
 
 - Failures can cause DV to “count to infinity” while seeking a path to an unreachable node

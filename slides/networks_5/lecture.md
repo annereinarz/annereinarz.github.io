@@ -100,17 +100,6 @@ Go to: [github](https://github.com/annereinarz/comp2211-rdt)
 
 ---
 
-# rdt2.0: receiver
-
-<img src="images/rdt_2_receiver.png" style="height:12em"></img>
-
----
-
-# rdt2.0: sender
-<img src="images/rdt_2_sender.png" style="height:12em"></img>
-
----
-
 # rdt2.0
 ### New mechanisms in rdt2.0 (beyond rdt1.0):
 - Error detection
@@ -125,6 +114,12 @@ Go to: [github](https://github.com/annereinarz/comp2211-rdt)
     - send ACK
 2. error (corrupt message)
     - send NAK
+
+---
+
+# rdt2.0
+
+<img src="images/rdt2-0.png"></img>
 
 ---
 
@@ -157,6 +152,18 @@ Sender sends one packet, then waits for receiver response
 
 ---
 
+# rdt2.2: receiver
+
+<img src="images/rdt_2_receiver.png" style="height:12em"></img>
+
+---
+
+# rdt2.2: sender
+<img src="images/rdt_2_sender.png" style="height:12em"></img>
+
+
+---
+
 # rdt3.0: 
 ## channels with errors and loss
 
@@ -178,6 +185,12 @@ Sender sends one packet, then waits for receiver response
 
 ---
 
+# rdt3.0: sender
+<img src="images/rdt_3_sender.png" style="height:12em"></img>
+
+
+---
+
 # rdt3.0
 
 <img src="images/rdt3.1.png" style="height:12em"></img>
@@ -190,6 +203,7 @@ Sender sends one packet, then waits for receiver response
 <img src="images/rdt3.2.png" style="height:12em"></img>
 
 ---
+
 
 # Pipelined protocols
 
