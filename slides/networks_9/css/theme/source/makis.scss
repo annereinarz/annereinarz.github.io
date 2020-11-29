@@ -1,0 +1,58 @@
+/**
+ * Custom theme for reveal.js.
+ *
+ * By Gerasimos Chourdakis
+ * Based on White by Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+//@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #000;
+$headingColor: #000;
+
+$mainFontSize: 36px;
+$mainFont: 'Open Sans', sans-serif;
+//'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Open Sans', sans-serif;
+//'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: normal;
+$headingFontWeight: 600;
+$linkColor: #68246d;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 1.6em;
+$heading2Size: 1.3em;
+$heading3Size: 1.0em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+body:after {
+	content: url(../../images/Durham.png);
+	position: fixed;
+	top: 2.5em;
+	right: 2.5em;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
