@@ -5,7 +5,14 @@ title: Recent Conference Contributions
 
 ## Talks
 
-- <em>A High-Performance Implementation of a Robust Preconditioner for Heterogeneous Problems. PPAM, Bialystok, 2019.
+
+- <em>Bayesian Inverse Problems for Tsunami Simulation</em>, SSD Seminar Series, RWTH Aachen, May 2021.
+
+- <em>Deep dive into Shallow Water</em>, SIAM CSE21, March 2021
+
+- <em>Modeling Composite Structures with Defects.</em> Oxford Computational Mathematics Seminar, February 2021.
+
+- <em>A High-Performance Implementation of a Robust Preconditioner for Heterogeneous Problems.</em> PPAM, Bialystok, 2019.
 
 - 9th International Congress on Industrial and Applied Mathematics (ICIAM 2019), Valencia, 2019.
 
