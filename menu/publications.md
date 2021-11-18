@@ -27,7 +27,13 @@ title: Publications
      [Journal](https://www.sciencedirect.com/science/article/pii/S0898122113004458)
 
 ## Conference Publications
-- J.-M. Gallard, L. Rannabauer, A. Reinarz & M. Bader. Vectorization and Minimization of Memory Footprint for Linear High-Order Discontinuous Galerkin Schemes. submitted to PDSEC20, 2020.<br>
+- P Samfass, T Weinzierl, A Reinarz & M Bader. Doubt and Redundancy Kill Soft Errors--Towards Detection and Correction of Silent Data Corruption in Task-based Numerical Software. Accepted at FTXS, 2021.<br>
+    [ArXiv](https://arxiv.org/abs/2110.15804)
+
+- L Seelinger, A Reinarz, L Rannabauer, M Bader, P Bastian & R Scheichl. High Performance Uncertainty Quantification with Parallelized Multilevel Markov Chain Monte Carlo. Accepted SC21, 2021.<br>
+    [ArXiv](https://arxiv.org/abs/2107.14552)
+
+- J.-M. Gallard, L. Rannabauer, A. Reinarz & M. Bader. Vectorization and Minimization of Memory Footprint for Linear High-Order Discontinuous Galerkin Schemes. PDSEC20, 2020.<br>
     [Arxiv](https://arxiv.org/abs/2003.12787) [Link](http://cse.stfx.ca/~pdsec20/acceptedlist.php)
 
 - J.-M. Gallard, L. Krenz, L. Rannabauer, A. Reinarz & M. Bader. Role-Oriented Code Generation in an Engine for Solving Hyperbolic PDE Systems. SC19 SE-HER, 2019.<br>

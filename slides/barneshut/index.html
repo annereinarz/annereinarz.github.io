@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Molecular Dynamics -- Forces</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		
+		<!-- Overall slides theme -->
+		<link rel="stylesheet" href="css/theme/makis.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+		.container{
+		    display: flex;
+		}
+		.col{
+		    flex: 1;
+		}
+		img {
+			border: 0 !important;
+			box-shadow: none !important;
+			height: 40vh;
+		}
+		.reveal .slides section .fragment {
+			grid-row-start: 1;
+    		grid-column-start: 1;
+		}
+		</style>
+
+		<!-- FontAwesome -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<style> .reveal i.fa { font-family:FontAwesome; font-style: normal; } </style>
+	</head>
+
+	<body>
+	<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
+	<div class="reveal">
+	<div class="slides">
+		
+		<!-- Title slide -->
+		<section>
+			<h1></span>COMP 3577: Parallel Scientific Computing I</h1>
+			<h2>Molecular Dynamics -- Forces</span></h2>
+			<div style="margin-top:50pt">
+				<div>
+					<small>Anne Reinarz</small>
+				</div>
+				<div>
+					<small>anne.k.reinarz@durham.ac.uk</small>
+				</div>
+			</div>
+		</section>
+
+		<!-- Main content -->
+		<section 	data-markdown="content.md" data-separator-vertical="vvv">
+		</section>
+		<section>
+</section>
+	</div>
+	</div>
+	</div>
+	
+	<script src="js/reveal.js"></script>
+	<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				center: true,
+				controls: true,
+				controlsTutorial: false,
+				progress: true,
+				slideNumber: false,
+				center: true,
+				hash: true,
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+				defaultTiming: 50,
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				markdown: {
+					smartypants: true
+				},
+    reveald3: {
+
+         // If the previous slide is a slide further in the deck (i.e. we come back to
+         // slide from the next slide), by default the last fragment transition will be
+         // triggered to to get the last state of the visualization and simulate the
+         // the state the simulation was in when we left the slide. This can be
+         // discarded.
+         runLastState: true, //default true
+
+         // If a special onSlideChanged transition has been set (if for example the visualization
+         // has been preloaded using the data-preload attribute, and you want a specific transition
+         // to happen only when you arrive on the slide), you can choose the delay with which such 
+         // a transition will occur (note that in the case of no data-preload, if no delay is set then
+         // the transition might not occur since the iframe might not be fully loaded yet when the 
+         // function is triggered). // default 0. 
+         onSlideChangedDelay: 400,
+
+         // This will prefix the path attributes of the source html paths with the given path.
+         // (by default "src" if set to true or with the specified path if string)
+         mapPath: false, // default: false
+
+         // If true, will try to locate the file at a fallback url without the mapPath prefix in case no file is found
+         // at the stipulated url with mapPath
+         tryFallbackURL: false, //default false
+
+         // Checking for file existance has been reported to fail in rare 
+         // cases though files did exist. This option is to disable the file checking.
+         //see: https://github.com/gcalmettes/reveal.js-d3/issues/10
+         disableCheckFile: false, //default false,
+    },
+				dependencies: [
+					// Interpret Markdown in <section> elements
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// Syntax highlight for <code> elements
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					// Search
+					{ src: 'plugin/search/search.js', async: true },
+					// Zoom in and out with Alt+click
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					// Speaker notes
+					{ src: 'plugin/notes/notes.js', async: true },
+					// MathJax
+					{ src: 'plugin/math/math.js', async: true },
+					// Chart
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' },
+					// d3.js for reveal.js
+					{ src: 'plugin/reveald3/reveald3.js' }
+				]
+			});
+		</script>
+	</body>
+</html>
