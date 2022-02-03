@@ -12,7 +12,7 @@ and uncertainty quantification.
 <div>
 <p class="aligncenter">
 <center>
-<img width="460" src="assets/img/me.jpg" frameborder="0" allowfullscreen></img>
-</p>
+<img width="460" src="assets/img/me.jpg" frameborder="0" allowfullscreen>
 </center>
+</p>
 </div>
