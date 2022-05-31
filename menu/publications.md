@@ -27,6 +27,7 @@ title: Publications
      [Journal](https://www.sciencedirect.com/science/article/pii/S0898122113004458)
 
 ## Conference Publications
+
 - P Samfass, T Weinzierl, A Reinarz & M Bader. Doubt and Redundancy Kill Soft Errors--Towards Detection and Correction of Silent Data Corruption in Task-based Numerical Software. Accepted at FTXS, 2021.<br>
     [ArXiv](https://arxiv.org/abs/2110.15804)
 
@@ -65,8 +66,13 @@ title: Publications
 
 - Quartl article (only available in German): [PDF](https://www5.in.tum.de/quartl/2020/quartl94_n.pdf)
 
+- Towards an Exascale Hyperbolic PDE Engine in  [High Performance Computing in Science and Engineering](https://doku.lrz.de/display/PUBLIC/Books+with+results+on+LRZ+HPC+Systems#BookswithresultsonLRZHPCSystems-ResultsofprojectsonSuperMUC-NG(inproduction2020-)
+
 
 ## Supervised Student Projects
+
+- Rebecca Brydon, Comparison of Implementation Strategies for PDE Adjoint Problems, June 2021 br>
+    [PDF](https://mediatum.ub.tum.de/doc/1616339/1616339.pdf)
 
 - Mohamed Houssein Zaghdane, Quantifying the Effect of Initial Conditions on
 Tsunami Simulation Using Bayesian Methods, October 2020.<br>
