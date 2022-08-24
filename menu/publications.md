@@ -5,6 +5,10 @@ title: Publications
 
 
 ## Journal Publications
+
+- L. Seelinger, V. Cheng-Seelinger, A. Davis, M. Parno & A. Reinarz. 'UM-Bridge: Uncertainty quantification and modeling bridge, Journal of Open Source Software (joss), 2022. <br>
+[Under review](https://github.com/openjournals/joss-reviews/issues/4605)
+
 - M. Dumbser, F. Fambri, E. Gaburro & A. Reinarz. On GLM curl cleaning for a first order reduction of the CCZ4 formulation of the Einstein field equations, Journal of Computational Physics, 2019.<br>
     [Arxiv](https://arxiv.org/abs/1909.03455) [Journal](https://www.sciencedirect.com/science/article/pii/S0021999119307934)
 
@@ -27,6 +31,9 @@ title: Publications
      [Journal](https://www.sciencedirect.com/science/article/pii/S0898122113004458)
 
 ## Conference Publications
+
+- A. Chernov & A. Reinarz. Sparse grid approximation spaces for space-time boundary integral formulations of the heat equation, Oberwolfach Workshop Report 2022,6.<br>
+[Workshop Report](https://publications.mfo.de/handle/mfo/3934)
 
 - P Samfass, T Weinzierl, A Reinarz & M Bader. Doubt and Redundancy Kill Soft Errors--Towards Detection and Correction of Silent Data Corruption in Task-based Numerical Software. Accepted at FTXS, 2021.<br>
     [ArXiv](https://arxiv.org/abs/2110.15804)
@@ -70,34 +77,4 @@ title: Publications
 [High Performance Computing in Science and Engineering](https://doku.lrz.de/display/PUBLIC/Books+with+results+on+LRZ+HPC+Systems#BookswithresultsonLRZHPCSystems-ResultsofprojectsonSuperMUC-NG(inproduction2020-))
 
 
-## Supervised Student Projects
 
-- Rebecca Brydon, Comparison of Implementation Strategies for PDE Adjoint Problems, June 2021 <br>
-    [PDF](https://mediatum.ub.tum.de/doc/1616339/1616339.pdf)
-
-- Mohamed Houssein Zaghdane, Quantifying the Effect of Initial Conditions on
-Tsunami Simulation Using Bayesian Methods, October 2020.<br>
-   [PDF](https://mediatum.ub.tum.de/doc/1577688/1577688.pdf) [MediaTUM](https://mediatum.ub.tum.de/604993?query=zaghdane&show_id=1577688)
-
-- Sebastian Schäfer,Efficiencency Analysis of Seismic high Performance Simulationsi, September 2020.<br>
-    Co-supervised by Sebastian Wolf<br>
-    [MediaTUM](https://mediatum.ub.tum.de/1576169)
-
-- Sebastian Walter, Deep Learning for Parameter Reduction
-on Real-World Topography Data, Master Thesis.<br>
-    Co-supervised by Lukas Krenz<br>
-    [PDF](https://mediatum.ub.tum.de/doc/1547030/1547030.pdf) [MediaTUM](https://mediatum.ub.tum.de/1547030)
-
-- Alexandra Seibicke, Quantifying the Effect of uncertain material parameters on seismic simulations, Bachelor Thesis.<br>
-    [MediaTUM](https://mediatum.ub.tum.de/1547029)
-
-- Erik Steiger, Sampling methods with application in tsunami simulation, Bachelor Thesis.<br>
-    [PDF](https://mediatum.ub.tum.de/doc/1520906/1520906.pdf) [MediaTUM](https://mediatum.ub.tum.de/1520906)
-
-- Arbab Akthar, Quantifying uncertainty in the bottom topography of the shallow water equations
-with DG methods, Masters Thesis.<br>
-    [MediaTUM](https://mediatum.ub.tum.de/1510095)
-
-- Janardan Paneru, Implementation of compressible gas dynamics and magnetohydrodynamics
-within the ExaHyPE Engine, Bachelor Thesis.<br>
-    [MediaTUM](https://mediatum.ub.tum.de/1471256)

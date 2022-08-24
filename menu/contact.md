@@ -7,6 +7,11 @@ title: Contact
 If you are have any questions or suggestions, feel free to contact me by email. Office hours are by arrangement.
 </div>
 
+**Office**<br>
+Department of Computer Science, 2107
+
+**Phone**<br>
+(+44) 1913342716
 
 **Address**:<br>
 Department of Computer Science,
