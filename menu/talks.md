@@ -5,17 +5,13 @@ title: Recent Conference Contributions
 
 ## Upcoming Talks and Conferences
 
-- <em>Minisymposium: Advanced UQ with Challenging Models - Software and Methods</em>
-  <em>Talk: Design and Implementation of UQ Software</em>
-  SIAM CSE, Amsterdam, February 2023
-
-- Colloqium, Majorca, March 2023
-
 - MCM, Paris, June 2023
 
 - SIAM Geosciences, Bergen, June 2023
 
 ## Organised Events
+- 2023: Minisymposium: <em>Advanced UQ with Challenging Models - Software and Methods</em>, SIAM CSE23, Amsterdam.
+  
 - 2022: [First UM-Bridge Workshope](https://um-bridge.github.io/workshop/), December.
 
 - 2020: [CHEESE Advanced Training on HPC for Computational Seismology](https://cheese-coe.eu/events/patc-cheese-advanced-training-hpc-computational-seismology), Zoom, October.<br>
@@ -34,6 +30,11 @@ title: Recent Conference Contributions
 - 2013: Reading SIAM Student Chapter Conference
 
 ## Past Talks
+
+- <em>Design and Implementation of UQ Software</em>, SIAM CSE, Amsterdam, February 2023.
+
+- Colloqium, University of the Balearic Islands, Palma, March 2023.
+
 
 - <em>Parallelized Multilevel Markov Chain Monte Carlo</em>, SIAM PP, February 2022.
 
