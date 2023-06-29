@@ -3,12 +3,6 @@ layout: page
 title: Recent Conference Contributions
 ---
 
-## Upcoming Talks and Conferences
-
-- MCM, Paris, June 2023
-
-- SIAM Geosciences, Bergen, June 2023
-
 ## Organised Events
 - 2023: Minisymposium: <em>Advanced UQ with Challenging Models - Software and Methods</em>, SIAM CSE23, Amsterdam.
   
@@ -31,10 +25,13 @@ title: Recent Conference Contributions
 
 ## Past Talks
 
+- <em>UM-Bridge</em>, Monte Carlo Methods, Paris, June 2023.
+
+- <em>A Deep dive into shallow water</em>, SIAM Geosciences, Bergen, June 2023.
+
 - <em>Design and Implementation of UQ Software</em>, SIAM CSE, Amsterdam, February 2023.
 
 - Colloqium, University of the Balearic Islands, Palma, March 2023.
-
 
 - <em>Parallelized Multilevel Markov Chain Monte Carlo</em>, SIAM PP, February 2022.
 

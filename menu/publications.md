@@ -7,7 +7,7 @@ title: Publications
 ## Journal Publications
 
 - L. Seelinger, V. Cheng-Seelinger, A. Davis, M. Parno & A. Reinarz. 'UM-Bridge: Uncertainty quantification and modeling bridge, Journal of Open Source Software (joss), 2022. <br>
-[Under review](https://github.com/openjournals/joss-reviews/issues/4605)
+[Journal](https://joss.theoj.org/papers/10.21105/joss.04748)
 
 - M. Dumbser, F. Fambri, E. Gaburro & A. Reinarz. On GLM curl cleaning for a first order reduction of the CCZ4 formulation of the Einstein field equations, Journal of Computational Physics, 2019.<br>
     [Arxiv](https://arxiv.org/abs/1909.03455) [Journal](https://www.sciencedirect.com/science/article/pii/S0021999119307934)
@@ -66,10 +66,11 @@ title: Publications
 - Ph.D., University of Reading, Supervisors: Alexey Chernov and Steve Langdon. <em>Space-time Boundary Element Methods for the Heat Equation</em>, completed 2015.<br>
     [PDF](https://www.reading.ac.uk/nmsruntime/saveasdialog.aspx?lID=111122&sID=90294)
 
-- Diploma thesis, University of Bonn, Germany. Supervisor: Alexey Chernov. <em>Numerical quadrature for high dimensional singular integrals<em>, completed 2010.<br>
-
+- Diploma thesis, University of Bonn, Germany. Supervisor: Alexey Chernov. <em>Numerical quadrature for high dimensional singular integrals</em>, completed 2010.<br>
 
 ## Other
+
+- Better Scientific Software Blog: [Link](https://bssw.io/blog_posts/enabling-complex-scientific-applications)
 
 - Quartl article (only available in German): [PDF](https://www5.in.tum.de/quartl/2020/quartl94_n.pdf)
 
