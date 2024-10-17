@@ -4,6 +4,8 @@ title: Recent Conference Contributions
 ---
 
 ## Organised Events
+- 2023: [Second UM-Bridge Workshope](https://um-bridge.github.io/workshop/), December.
+
 - 2023: Minisymposium: <em>Advanced UQ with Challenging Models - Software and Methods</em>, SIAM CSE23, Amsterdam.
   
 - 2022: [First UM-Bridge Workshope](https://um-bridge.github.io/workshop/), December.
@@ -25,13 +27,19 @@ title: Recent Conference Contributions
 
 ## Past Talks
 
+- <em>UM-Bridge: Enabling Complex Scientific Applications</em>, 2nD MaRDI Workshop on Scientific Computing, October 2024.
+
+- <em>Modeling Composite Structures with Defects</em>, Mittag-Leffler workshop on Numerical PDEs, Stockholm, June 2024.
+
+- <em>UM-Bridge: User-Friendly, Scalable UQ</em>, Numerical Analysis and Scientific Computing Seminar, Manchester, October 2023.
+
 - <em>UM-Bridge</em>, Monte Carlo Methods, Paris, June 2023.
 
 - <em>A Deep dive into shallow water</em>, SIAM Geosciences, Bergen, June 2023.
 
 - <em>Design and Implementation of UQ Software</em>, SIAM CSE, Amsterdam, February 2023.
 
-- Colloqium, University of the Balearic Islands, Palma, March 2023.
+- <em>Colloqium</em>, University of the Balearic Islands, Palma, March 2023.
 
 - <em>Parallelized Multilevel Markov Chain Monte Carlo</em>, SIAM PP, February 2022.
 

@@ -32,6 +32,8 @@ title: Publications
 
 ## Conference Publications
 
+- Anna Weatherburn, Anne Reinarz, Stefano Giani & S. Szyniszewski. Modelling Fracture Behaviour in Fibre-Hybrid 3D Woven Composites, UKACM Proceedings 2024.<br>
+
 - A. Chernov & A. Reinarz. Sparse grid approximation spaces for space-time boundary integral formulations of the heat equation, Oberwolfach Workshop Report 2022,6.<br>
 [Workshop Report](https://publications.mfo.de/handle/mfo/3934)
 
@@ -69,6 +71,7 @@ title: Publications
 - Diploma thesis, University of Bonn, Germany. Supervisor: Alexey Chernov. <em>Numerical quadrature for high dimensional singular integrals</em>, completed 2010.<br>
 
 ## Other
+- Google Cloud Blog: [Link](https://cloud.google.com/blog/topics/hpc/researchers-run-uncertainty-quantification-models-on-gke) 
 
 - Better Scientific Software Blog: [Link](https://bssw.io/blog_posts/enabling-complex-scientific-applications)
 
